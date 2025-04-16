@@ -7,7 +7,7 @@ export default function Navbar() {
     <header className="h-[68px] py-2">
       <div
         className="container mx-auto px-2
-       flex justify-between items-center"
+       flex justify-between items-center gap-10"
       >
         <Logo />
         <Nav />
