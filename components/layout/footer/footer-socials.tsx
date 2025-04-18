@@ -60,7 +60,7 @@ function TwitterIcon() {
 }
 export default function FooterSocials() {
   return (
-    <div className="flex justify-end items-center gap-3">
+    <div className="flex justify-center items-center gap-3">
       <LinkedInIcon />
       <FacebookIcon />
       <TwitterIcon />
