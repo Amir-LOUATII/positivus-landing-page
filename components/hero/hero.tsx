@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "../ui/button";
 import HeroImage from "./hero-image";
+import Partners from "./partners";
 
 export default function Hero() {
   return (
-    <section className="w-full py-16 ">
+    <section className="w-full pt-16 ">
       <div className="container mx-auto flex justify-between px-1 lg:px-4 gap-4">
         <div className="flex-1/2 ">
           {" "}
@@ -27,6 +28,7 @@ export default function Hero() {
           <HeroImage />
         </div>
       </div>
+      <Partners />
     </section>
   );
 }
