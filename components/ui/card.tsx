@@ -1,15 +1,12 @@
+import { CardVariant } from "@/utils/types";
 import React, { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
-
-type CardVariant = "default" | "primary" | "secondary" | "dark";
 
 type CardProps = {
   variant?: CardVariant;
   className?: string;
   children: ReactNode;
-
   shadow?: boolean;
-  shadowIntensity?: "soft" | "medium" | "strong";
 };
 const colorVariants: Record<CardVariant, string> = {
   default: "bg-white",
