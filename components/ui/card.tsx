@@ -26,7 +26,7 @@ export default function Card({
     <article
       className={twMerge(
         `${colorVariants[variant]} w-full p-8 rounded-3xl relative`,
-        shadow ? "border-b-8 border-dark shadow-dark shadow-sm" : "",
+        shadow ? "border-b-4 border-dark shadow-dark shadow-sm" : "",
 
         className
       )}
