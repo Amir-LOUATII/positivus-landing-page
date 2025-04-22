@@ -1,5 +1,4 @@
-import React from "react";
-import Button from "../ui/button";
+import { Button } from "../ui/button";
 import HeroImage from "./hero-image";
 import Partners from "./partners";
 
@@ -20,7 +19,7 @@ export default function Hero() {
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <Button size="lg" variant="dark" className="mt-9">
+          <Button size="lg" className="mt-9 bg-dark text-white hover:bg-dark">
             <span className="text-lg normal-case">Book a consultation</span>
           </Button>
         </div>

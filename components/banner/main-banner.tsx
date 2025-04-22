@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Button from "../ui/button";
+
 import Card from "../ui/card";
 import bannerImage from "@/assets/images/bannerImage.png";
+import { Button } from "../ui/button";
 export default function MainBanner() {
   return (
     <section className="w-full container mx-auto mb-40">
@@ -16,7 +17,13 @@ export default function MainBanner() {
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
-          <Button variant="dark">Get your free proposal</Button>
+          <Button
+            variant={"default"}
+            className="
+          bg-dark text-white hover:bg-dark"
+          >
+            Get your free proposal
+          </Button>
         </div>
         <div className="flex-1/2 relative h-full max-md:hidden">
           <Image
