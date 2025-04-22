@@ -23,17 +23,15 @@ export default function Card({
   shadow = true,
 }: CardProps) {
   return (
-    <div className="relative">
-      <article
-        className={twMerge(
-          `${colorVariants[variant]} w-full p-8 rounded-3xl relative`,
-          shadow ? "border-b-8 border-dark shadow-dark shadow-sm" : "",
+    <article
+      className={twMerge(
+        `${colorVariants[variant]} w-full p-8 rounded-3xl relative`,
+        shadow ? "border-b-8 border-dark shadow-dark shadow-sm" : "",
 
-          className
-        )}
-      >
-        {children}
-      </article>
-    </div>
+        className
+      )}
+    >
+      {children}
+    </article>
   );
 }
