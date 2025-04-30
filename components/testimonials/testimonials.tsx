@@ -13,7 +13,7 @@ const items = [
 ];
 export default function Testimonials() {
   return (
-    <Card variant="dark" className="container mx-auto my-4">
+    <Card variant="dark" className="container mx-auto my-6">
       <TestimonialsCarousel items={items} />
     </Card>
   );
