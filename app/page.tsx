@@ -1,5 +1,6 @@
 import MainBanner from "@/components/banner/main-banner";
 import CaseStudies from "@/components/case-studies/case-studies";
+import ContactSection from "@/components/contact/contact-section";
 import Hero from "@/components/hero/hero";
 import ServicesSection from "@/components/services/services-section";
 import TeamSection from "@/components/team/team-section";
@@ -16,6 +17,7 @@ export default function Home() {
       <WorkingProcess />
       <TeamSection />
       <TestimonialsSection />
+      <ContactSection />
     </>
   );
 }
