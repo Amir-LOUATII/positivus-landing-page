@@ -116,7 +116,6 @@ export function TestimonialsCarousel({
                   aria-label={`Go to slide ${index + 1}`}
                 >
                   <Image
-                    priority
                     src={index === current ? starIcon : starIconEmpty}
                     alt="star icon"
                     width={24}

@@ -21,7 +21,6 @@ export default function ServiceLink({
     <a href={href} className="flex justify-center items-center">
       {variant in images && (
         <Image
-          priority
           src={images[variant as Exclude<CardVariant, "default">]}
           width={41}
           height={41}
