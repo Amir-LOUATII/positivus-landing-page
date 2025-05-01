@@ -3,7 +3,7 @@ import Testimonials from "./testimonials";
 
 export default function TestimonialsSection() {
   return (
-    <section className="w-full">
+    <section className="w-full px-3.5">
       <SectionHeader title="Testimonials">
         <div>
           <p>Hear from Our Satisfied Clients: Read Our Testimonials to</p>

@@ -3,7 +3,7 @@ import Process from "./process";
 
 export default function WorkingProcess() {
   return (
-    <section className="w-full">
+    <section className="w-full px-3.5">
       <SectionHeader title="Our Working Process ">
         <div>
           <p>Step-by-Step Guide to Achieving</p>

@@ -5,7 +5,7 @@ import HeaderButton from "./header-button";
 
 export default function Nav() {
   return (
-    <div className="hidden lg:flex gap-x-10 justify-end items-center">
+    <div className="hidden lg:flex gap-x-6 justify-end items-center">
       {links.map((item) => (
         <NavItem {...item} key={item?.label} />
       ))}
