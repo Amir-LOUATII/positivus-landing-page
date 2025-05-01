@@ -97,7 +97,7 @@ export function TestimonialsCarousel({
           ))}
         </CarouselContent>
         <div className="flex justify-center items-center gap-4">
-          <div className="flex justify-between mt-4 gap-1.5 w-md max-w-full px-7">
+          <div className="flex justify-between mt-4 gap-1.5 w-md max-w-full px-7 items-center">
             <Button
               asChild
               onClick={onPrev}
@@ -106,11 +106,11 @@ export function TestimonialsCarousel({
             >
               <Image src={leftArrow} alt="left arrow" className="text-white" />
             </Button>
-            <div className="justify-center items-center gap-1">
+            <div className="justify-center items-center gap-1 flex ">
               {items.map((_, index) => (
                 <Button
-                  className="m-0 p-0 hover:bg-transparent"
-                  variant={"ghost"}
+                  className="ml-1 w-12 h-12 p-2 rounded-md flex items-center justify-center hover:bg-transparent"
+                  variant="ghost"
                   key={index}
                   onClick={() => api?.scrollTo(index)}
                   aria-label={`Go to slide ${index + 1}`}
@@ -119,6 +119,8 @@ export function TestimonialsCarousel({
                     priority
                     src={index === current ? starIcon : starIconEmpty}
                     alt="star icon"
+                    width={24}
+                    height={24}
                   />
                 </Button>
               ))}

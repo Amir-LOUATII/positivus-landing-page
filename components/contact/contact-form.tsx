@@ -28,6 +28,7 @@ export default function ContactForm() {
             >
               <div className="flex items-center space-x-2">
                 <RadioGroupItem
+                  aria-label="say hi radio button"
                   value="option-one"
                   id="option-one"
                   className="border-2 border-black data-[state=checked]:accent-background bg-white w-7 h-7"
@@ -38,6 +39,7 @@ export default function ContactForm() {
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem
+                  aria-label="request quote radio button"
                   value="option-two"
                   id="option-two"
                   className="border-2 border-black data-[state=checked]:accent-background bg-white w-7 h-7"

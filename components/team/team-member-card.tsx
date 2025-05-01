@@ -22,7 +22,7 @@ export default function TeamMemberCard({
             <Image src={image} alt={`Image of ${name}`} priority fill />
           </div>
           <div>
-            <h4 className="font-medium text-xl">{name}</h4>
+            <h2 className="font-medium text-xl">{name}</h2>
             <p className=" text-nowrap">{position}</p>
           </div>
         </div>
