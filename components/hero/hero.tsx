@@ -4,11 +4,11 @@ import Partners from "./partners";
 
 export default function Hero() {
   return (
-    <section className="w-full pt-16 ">
+    <section className="w-full pt-6 d:pt-10 lg:pt-16 max-w-full ">
       <div className="container mx-auto flex justify-between px-1 lg:px-4 gap-4">
         <div className="flex-1/2 ">
           {" "}
-          <h1 className="text-6xl font-medium mb-9 max-md:px-3">
+          <h1 className=" text-3xl md:text-4xl lg:text-6xl font-medium mb-9 max-md:px-3">
             Navigating the digital landscape for success
           </h1>
           <div className="md:hidden w-full max-w-full">
