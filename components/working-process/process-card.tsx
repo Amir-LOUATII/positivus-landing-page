@@ -25,9 +25,9 @@ export default function ProcessCard({
       className="transition-colors duration-75"
     >
       <header className="flex justify-between">
-        <div className="flex justify-start items-center gap-6">
-          <p className="font-medium text-6xl">{step}</p>
-          <p className="font-medium text-3xl">{title}</p>
+        <div className="flex justify-start items-center gap-6 flex-wrap">
+          <p className="font-medium text-xl md:text-3xl lg:text-6xl">{step}</p>
+          <p className="font-medium text-xl md:text-3xl lg:text-3xl">{title}</p>
         </div>
         <Button
           variant={"ghost"}
