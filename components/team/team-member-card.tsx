@@ -22,7 +22,6 @@ export default function TeamMemberCard({
             <Image
               src={image}
               alt={`Image of ${name}`}
-              priority
               fill
               sizes="(max-width: 768px) 90px, 90px"
               className="object-cover rounded-full"
