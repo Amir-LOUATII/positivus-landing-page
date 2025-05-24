@@ -3,7 +3,7 @@ import ContactForm from "./contact-form";
 
 export default function ContactSection() {
   return (
-    <section className="w-full px-3.5 container">
+    <section className="section">
       <SectionHeader title="Contact Us">
         <div>
           <p>{"Connect with Us: Let's Discuss Your"}</p>

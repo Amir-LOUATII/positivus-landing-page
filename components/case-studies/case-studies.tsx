@@ -3,7 +3,7 @@ import Studies from "./studies";
 
 export default function CaseStudies() {
   return (
-    <section className="w-full px-3.5 container">
+    <section className="section">
       <SectionHeader title="Case Studies">
         <div>
           <p>Explore Real-Life Examples of Our Proven Digital Marketing</p>

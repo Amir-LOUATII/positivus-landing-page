@@ -4,7 +4,7 @@ import Partners from "./partners";
 
 export default function Hero() {
   return (
-    <section className="w-full pt-6 d:pt-10 lg:pt-16 max-w-full ">
+    <section className="section">
       <div className="container mx-auto flex justify-between px-1 lg:px-4 gap-4">
         <div className="flex-1/2 ">
           {" "}

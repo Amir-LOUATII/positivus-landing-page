@@ -5,7 +5,7 @@ import bannerImage from "@/assets/images/bannerImage.png";
 import { Button } from "../ui/button";
 export default function MainBanner() {
   return (
-    <section className="w-full container mx-auto mb-40">
+    <section className="section ">
       <Card
         variant="secondary"
         shadow={false}

@@ -3,7 +3,7 @@ import Services from "./services";
 
 export default function ServicesSection() {
   return (
-    <section className="py-[140px] container mx-auto px-3.5">
+    <section className="section ">
       <SectionHeader title="Services">
         <div>
           <p>

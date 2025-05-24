@@ -4,7 +4,7 @@ import TeamMembers from "./team-members";
 
 export default function TeamSection() {
   return (
-    <section className="w-full px-3.5">
+    <section className="section">
       <SectionHeader title="Team">
         <div>
           <p>Meet the skilled and experienced team behind our</p>

@@ -55,7 +55,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-8 lg:mt-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8 lg:mt-20">
       {services.map((service) => (
         <ServiceCard
           image={service.image}
